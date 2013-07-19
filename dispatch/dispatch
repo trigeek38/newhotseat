@@ -1,0 +1,8 @@
+%% -*- mode: erlang -*-
+%% Put your dispatch rules here.
+[
+ {home,      [],	                         controller_template,  [ {template, "home.tpl"} ]},
+ {slideshow_admin, ["slideshow","admin"],        controller_template,  [ {template, "slideshow.tpl"} ]},
+ {slideshow, ["slideshow"],                      controller_template,  [ {template, "slideshow_base.tpl"} ]},
+ {overlord,  ["overlord"],                       controller_template,  [ {template, "overlord.tpl"} ]}
+].
